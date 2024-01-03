@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.dressing.drawer.moderndressingtable">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Dressingtabledesign"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".Three.Three_7"
+            android:exported="false" />
+        <activity
+            android:name=".Three.Three_6"
+            android:exported="false" />
+        <activity
+            android:name=".Three.Three_5"
+            android:exported="false" />
+        <activity
+            android:name=".Three.Three_4"
+            android:exported="false" />
+        <activity
+            android:name=".Three.Three_3"
+            android:exported="false" />
+        <activity
+            android:name=".Three.Three_2"
+            android:exported="false" />
+        <activity
+            android:name=".Three.Three_1"
+            android:exported="false" />
+        <activity
+            android:name=".Three.Three_DesignActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Four.Four_8"
+            android:exported="false" />
+        <activity
+            android:name=".Four.Four_7"
+            android:exported="false" />
+        <activity
+            android:name=".Four.Four_6"
+            android:exported="false" />
+        <activity
+            android:name=".Four.Four_5"
+            android:exported="false" />
+        <activity
+            android:name=".Four.Four_4"
+            android:exported="false" />
+        <activity
+            android:name=".Four.Four_3"
+            android:exported="false" />
+        <activity
+            android:name=".Four.Four_2"
+            android:exported="false" />
+        <activity
+            android:name=".Four.Four_1"
+            android:exported="false" />
+        <activity
+            android:name=".Four.Four_Design"
+            android:exported="false" />
+        <activity
+            android:name=".two.Two_16"
+            android:exported="false" />
+        <activity
+            android:name=".two.Two_15"
+            android:exported="false" />
+        <activity
+            android:name=".two.Two_14"
+            android:exported="false" />
+        <activity
+            android:name=".two.Two_13"
+            android:exported="false" />
+        <activity
+            android:name=".two.Two_12"
+            android:exported="false" />
+        <activity
+            android:name=".two.Two_11"
+            android:exported="false" />
+        <activity
+            android:name=".two.Two_10"
+            android:exported="false" />
+        <activity
+            android:name=".two.Two_9"
+            android:exported="false" />
+        <activity
+            android:name=".two.Two_8"
+            android:exported="false" />
+        <activity
+            android:name=".two.Two_7"
+            android:exported="false" />
+        <activity
+            android:name=".two.Two_6"
+            android:exported="false" />
+        <activity
+            android:name=".two.Two_5"
+            android:exported="false" />
+        <activity
+            android:name=".two.Two_4"
+            android:exported="false" />
+        <activity
+            android:name=".two.Two_3"
+            android:exported="false" />
+        <activity
+            android:name=".two.Two_1"
+            android:exported="false" />
+        <activity
+            android:name=".two.Two_2"
+            android:exported="false" />
+        <activity
+            android:name=".two.Two_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".one.One_10"
+            android:exported="false" />
+        <activity
+            android:name=".one.One_9"
+            android:exported="false" />
+        <activity
+            android:name=".one.One_8"
+            android:exported="false" />
+        <activity
+            android:name=".one.One_7"
+            android:exported="false" />
+        <activity
+            android:name=".one.One_6"
+            android:exported="false" />
+        <activity
+            android:name=".one.One_5"
+            android:exported="false" />
+        <activity
+            android:name=".one.One_4"
+            android:exported="false" />
+        <activity
+            android:name=".one.One_3"
+            android:exported="false" />
+        <activity
+            android:name=".one.One_2"
+            android:exported="false" />
+        <activity
+            android:name=".one.One_1"
+            android:exported="false" />
+        <activity
+            android:name=".one.One_List_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Splash_Screen_Activity"
+            android:exported="true" >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+
+        </activity>
+    </application>
+
+</manifest>

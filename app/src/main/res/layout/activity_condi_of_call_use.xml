@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/roboto_bold"
+            android:text="TERMS OF USE"
+            android:textColor="@color/buttonColor"
+            android:textSize="@dimen/_16sdp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/TV_TermsText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium"
+                android:padding="@dimen/_10sdp"
+                android:text="@string/terms_of_use"
+                android:textColor="@color/bgTextColor"
+                android:textSize="@dimen/_11sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:fontFamily="@font/roboto_medium"
+                android:padding="@dimen/_10sdp"
+                android:text="You can find out more information by clicking on the"
+                android:textColor="@color/bgTextColor"
+                android:textSize="@dimen/_11sdp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_medium"
+                    android:padding="@dimen/_10sdp"
+                    android:text="Following link :"
+                    android:textColor="@color/bgTextColor" />
+
+                <TextView
+                    android:id="@+id/tAndC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_medium"
+                    android:onClick="onButtonAcceptClick"
+                    android:padding="@dimen/_10sdp"
+                    android:text="@string/TandC"
+                    android:textColor="@color/buttonColor" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_medium"
+                    android:padding="@dimen/_10sdp"
+                    android:text="Following link :"
+                    android:textColor="@color/bgTextColor" />
+
+                <TextView
+                    android:id="@+id/tv_privacy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_medium"
+                    android:onClick="onButtonAcceptClick"
+                    android:padding="@dimen/_10sdp"
+                    android:text="@string/PrivacyPolicy"
+                    android:textColor="@color/buttonColor" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_medium"
+                    android:padding="@dimen/_10sdp"
+                    android:text="Following link :"
+                    android:textColor="@color/bgTextColor" />
+
+                <TextView
+                    android:id="@+id/tv_appCommunity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_medium"
+                    android:onClick="onButtonAcceptClick"
+                    android:padding="@dimen/_10sdp"
+                    android:text="@string/appCommunity"
+                    android:textColor="@color/buttonColor" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/_10sdp">
+
+        <TextView
+            android:id="@+id/tv_reject"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_bg"
+            android:backgroundTint="@color/fgColor"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="center"
+            android:onClick="onButtonAcceptClick"
+            android:text="Reject"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_14sdp" />
+
+        <TextView
+            android:id="@+id/tv_accept"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_bg"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="center"
+            android:onClick="onButtonAcceptClick"
+            android:text="Accept"
+            android:textColor="@color/buttonTextColor"
+            android:textSize="@dimen/_14sdp" />
+    </LinearLayout>
+</LinearLayout>

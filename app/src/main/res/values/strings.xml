@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Dressing Tabledesign</string>
+
+
+    <string name="terms_of_use"> warning you about the app that gives you many services and important information for safer and efficient use.\10\10 By pressing the Accept button, I declare I have read and accepted the following condition of use:\10\10 If we find the app is being used outside its terms of use, we may restrict access to it.\10\10 Any type of modification to the app or its components is not allowed.\10\10 Privacy Policy may be updated from time to time for any reason. We will notify you of any changes to our Privacy Policy by posting the new Privacy Policy here.\10\10 We do not share any kind of your Personal Data with third parties. </string>
+    <string name="TandC">Terms and conditions of use</string>
+    <string name="PrivacyPolicy">Privacy policy</string>
+    <string name="appCommunity">App Community Guidelines</string>
+
+    <string name="policy_granted1">Google wants a neat and clean environment in the play store so according to the new policy, every user have to accept a new policy before uploading any content on our app.</string>
+    <string name="policy_granted2">Please accept the following terms otherwise you are not allowed to use our app</string>
+    <string name="policy_granted3">1. you are not allowed to upload any objectionable and prohibited content that is against our policy such as sexual, bad language</string>
+    <string name="policy_granted4">2. you will not harass any user.</string>
+    <string name="policy_granted5">3. you will not share any adult content.</string>
+    <string name="policy_granted6">4. you will respect other members of the app.</string>
+</resources>
